@@ -87,7 +87,7 @@ uploadForm.addEventListener('submit', async (event) => {
         // for local : http://127.0.0.1:8000/api/cnn-predict/
        //for host : https://hemadetect.onrender.com/api/cnn-predict/
         try {
-            const response = await fetch('https://hemadetect.onrender.com/api/cnn-predict', {
+            const response = await fetch('https://hemadetect.onrender.com/api/cnn-predict/', {
                 method: 'POST',
                 body: formData,
             });

@@ -11,6 +11,40 @@
     <link rel="icon" type="image/png" sizes="16x16" href="assets/haema.png">
     <link rel="manifest" href="/site.webmanifest">
     <title>Using Images</title>
+    <script>
+      const fs = require('fs');
+const path = require('path');
+
+// Define the path to your secret file
+const filePath = path.join(__dirname, 'keys.txt'); // Assuming the file is in the root directory
+
+// Alternatively, you can use the /etc/secrets path
+// const filePath = '/etc/secrets/my_secrets.txt';
+
+fs.readFile(filePath, 'utf8', (err, data) => {
+    if (err) {
+        console.error('Error reading secret file:', err);
+        return;
+    }
+
+    // Assuming the file contains key-value pairs like API_KEY=value
+    const secrets = {};
+    const lines = data.split('\n');
+    lines.forEach(line => {
+        const [key, value] = line.split('=');
+        if (key && value) {
+            secrets[key.trim()] = value.trim();
+        }
+    });
+
+    // Access your secrets
+    const apiKey = secrets['API_KEY'];
+    const secretKey = secrets['SECRET_KEY'];
+
+    console.log('API Key:', apiKey);
+    console.log('Secret Key:', secretKey);
+});
+    </script>
     <script type="module" async crossorigin="anonymous"
   data-clerk-publishable-key=/etc/secrets/keys.data-clerk-publishable-key
   src="https://enjoyed-whale-36.clerk.accounts.dev/npm/@clerk/clerk-js@latest/dist/clerk.browser.js"

@@ -3,7 +3,7 @@
 2. Authentication using <code>Clerk</code> .
 3. Details of our team in <code>about</code> section.
 4. Database integration WIP.
-5. Model has been made and deployed seperately as web service (more details on: https://github.com/Ritax2003/HemaDetect). <br> API: <code>https://hemadetect.onrender.com/api/cnn-predict/</code>
+5. Model has been made and deployed seperately as web service aswell (more details on: https://github.com/Ritax2003/HemaDetect). <br> API: <code>https://hemadetect.onrender.com/api/cnn-predict/</code> . Fine tuning WIP.
    
 
 # Tech Stack:<br>

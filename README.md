@@ -3,8 +3,7 @@
 2. Authentication using <code>Clerk</code> .
 3. Details of our team in <code>about</code> section.
 4. Database integration WIP.
-5. Model has been made and deployed seperately as web service (more details on: https://github.com/Ritax2003/HemaDetect). <br> API: <code>https://hemadetect.onrender.com/api/cnn-predict/</code> <br>
-please attempt 5 to 7 times repeteadly , because free tier app goes to sleep after sometime and it takes 50+ seconds to come alive.
+5. Model has been made and deployed seperately as web service (more details on: https://github.com/Ritax2003/HemaDetect). <br> API: <code>https://hemadetect.onrender.com/api/cnn-predict/</code>
    
 
 # Tech Stack:<br>

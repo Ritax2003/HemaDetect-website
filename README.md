@@ -27,7 +27,7 @@
       <th>Role(s)</th>
     </tr>
     <tr>
-      <td><img src="assets/naru.jpeg" width="100" height="100" style="border-radius: 50%;object-fit: cover;" alt="Patrika Chatterjee"></td>
+      <td><img src="assets/naru2.jpeg" width="100" height="100" style="border-radius: 50%;object-fit: cover;" alt="Patrika Chatterjee"></td>
       <td><strong>Patrika Chatterjee</strong></td>
       <td>
         <img src="https://img.shields.io/badge/Manager-blue?style=for-the-badge&logo=microsoft&logoColor=white" alt="Manager"><br>

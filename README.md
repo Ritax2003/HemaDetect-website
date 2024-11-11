@@ -28,7 +28,8 @@
     </tr>
     <tr>
       <td><img src="assets/naru2.jpeg" width="100" height="100" style="border-radius: 50%;object-fit: cover;" alt="Patrika Chatterjee"></td>
-      <td><strong>Patrika Chatterjee</strong></td>
+      <td><strong>Patrika Chatterjee<br>
+   <a href="https://github.com/patrika2003">Github</a></strong></td>
       <td>
         <img src="https://img.shields.io/badge/Manager-blue?style=for-the-badge&logo=github&logoColor=white" alt="Manager"><br>
         <img src="https://img.shields.io/badge/Frontend-green?style=for-the-badge&logo=react&logoColor=white" alt="Frontend"><br>
@@ -37,7 +38,9 @@
     </tr>
     <tr>
       <td><img src="assets/titli.jpeg" width="100" height="100" style="border-radius: 50%;" alt="Titli Paul"></td>
-      <td><strong>Titli Paul</strong></td>
+      <td><strong>Titli Paul <br>
+   <a href="https://github.com/txt1z">Github</a>   
+   </strong></td>
       <td>
         <img src="https://img.shields.io/badge/Documentation-purple?style=for-the-badge&logo=markdown&logoColor=white" alt="Documentation"><br>
          <img src="https://img.shields.io/badge/Frontend-green?style=for-the-badge&logo=react&logoColor=white" alt="Frontend">
@@ -45,7 +48,8 @@
     </tr>
     <tr>
       <td><img src="assets/sumit.jpeg" width="100" height="100" style="border-radius: 50%;" alt="Sumit Mitra"></td>
-      <td><strong>Sumit Mitra</strong></td>
+      <td><strong>Sumit Mitra<br>
+   <a href="https://github.com/SUMIT2001GO">Github</a></strong></td>
       <td>
         <img src="https://img.shields.io/badge/Model_Developer-yellow?style=for-the-badge&logo=tensorflow&logoColor=black" alt="Model Developer"><br>
         <img src="https://img.shields.io/badge/Backend-Red?style=for-the-badge&logo=node.js&logoColor=white" alt="Backend">
@@ -53,7 +57,8 @@
     </tr>
     <tr>
       <td><img src="assets/Ritabrata dey.png" width="100" height="100" style="border-radius: 50%;" alt="Ritabrata Dey"></td>
-      <td><strong>Ritabrata Dey</strong></td>
+      <td><strong>Ritabrata Dey<br>
+   <a href="https://github.com/Ritax2003">Github</a></strong></td>
       <td>
         <img src="https://img.shields.io/badge/Frontend-green?style=for-the-badge&logo=react&logoColor=white" alt="Frontend"><br>
         <img src="https://img.shields.io/badge/Backend-Red?style=for-the-badge&logo=node.js&logoColor=white" alt="Backend"><br>

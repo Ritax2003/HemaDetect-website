@@ -1,4 +1,4 @@
-# Progress (as of 04/11/2024):
+# Progress (as of 12/01/2025):
 1. Website frontend with details.
 2. Authentication using <code>Clerk</code> .
 3. Details of our team in <code>about</code> section.

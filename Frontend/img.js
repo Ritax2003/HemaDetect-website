@@ -104,8 +104,11 @@ uploadForm.addEventListener('submit', async (event) => {
 
             // Uploaded Image
             const uploadedImg = new Image();
-            uploadedImg.src = result.Image;
+            uploadedImg.src = URL.createObjectURL(uploadedFile); // show user's uploaded image
             uploadedImg.style.width = "300px";
+            uploadedImg.alt = "Uploaded Image";
+
+
 
             // Detected Image from Response
            // const detectionImg = new Image();
@@ -114,7 +117,7 @@ uploadForm.addEventListener('submit', async (event) => {
 
             // HTML for displaying both images side by side
             const outputHtml = `
-                <div style="display: flex; justify-content: space-around; align-items: center; gap:20px; margin-top: 20px;">
+                <div style="display: flex; flex-direction:column; align-items: center; gap:20px; margin-top: 20px;">
                     <div style="text-align: center;">
                         <h2 style="font-size: 1.5em;">Uploaded Image:</h2>
                         ${uploadedImg.outerHTML}

@@ -63,7 +63,8 @@
       <td>
         <img src="https://img.shields.io/badge/Frontend-green?style=for-the-badge&logo=react&logoColor=white" alt="Frontend"><br>
         <img src="https://img.shields.io/badge/Backend-Red?style=for-the-badge&logo=node.js&logoColor=white" alt="Backend"><br>
-        <img src="https://img.shields.io/badge/API-Red?style=for-the-badge&logo=django&logoColor=white" alt="API connect"><br>
+        <img src="https://img.shields.io/badge/API Developer-Red?style=for-the-badge&logo=django&logoColor=white" alt="API connect"><br>
+         <img src="https://img.shields.io/badge/APP Developer-Red?style=for-the-badge&logo=django&logoColor=white" alt="API connect"><br>
          <img src="https://img.shields.io/badge/Manager-blue?style=for-the-badge&logo=github&logoColor=white" alt="Manager">
       </td>
     </tr>

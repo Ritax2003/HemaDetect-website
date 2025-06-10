@@ -1,10 +1,10 @@
-# Progress (as of 02/03/2025):
+# Progress (as of 10/06/2025):
 1. Website frontend with details.
 2. Authentication using <code>Clerk</code> .
 3. Details of our team in <code>about</code> section.
 4. Database integration WIP.
 5. Model has been made and deployed seperately as web service aswell (more details on: https://github.com/Ritax2003/HemaDetect). <br> API: <code>https://hemadetect.onrender.com/api/cnn-predict/</code> . Fine tuning WIP.
-6. A Windows compatible Application has also been created which can be found on <a href="https://github.com/Ritax2003/HemaDetect-website/releases">Releases</a>. The App is currently WIP, and update system is somewhat broken (App gets updated but can't start the new version by itself - but can be started by the user from the file location.)
+6. A Windows compatible Application has also been created which can be found on <a href="https://github.com/Ritax2003/HemaDetect-website/releases">Releases</a>. The App is currently WIP, and update system is somewhat broken (App gets updated and can start the new version by itself - but the previous version should be deleted by the user after the update from the file location.)
    
 
 # Tech Stack:<br>
